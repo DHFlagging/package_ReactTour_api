@@ -15,5 +15,12 @@
         "psr-4": {
             "jbirch8865\\ReactTour\\" : "src/"    
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "jbirch8865\\ReactTour\\ReactTourServiceProvider"
+            ]
+        }
+    },
 }
