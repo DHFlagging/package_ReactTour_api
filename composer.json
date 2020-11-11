@@ -1,0 +1,19 @@
+{
+    "name": "jbirch8865/react-tour",
+    "description": "Works with front end react tours to keep track of user specific training steps",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joel",
+            "email": "jbirch88655@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "jbirch8865\\ReactTour\\" : "src/"    
+        }
+    }
+}
