@@ -12,8 +12,8 @@ Route::prefix('api/reacttour')->group(function () {
         return response()->json(["message"=>"Training Steps","trainingsteps" => $trainingsteps]);
     });
     Route::post('trainingsteps',function (Request $request){
-        $request->validate(['name' => 'string|required|unique:trainingsteps|max:255']);
-        trainingstep::updateOrCreate(['name' => $request->input('name')]);
+        $request->validate(['name' => 'string|required|unique:trainingsteps|max:255','importance' => 'required|integer|max:2147483647']);
+        trainingstep::updateOrCreate(['name' => $request->input('name')],['importance' => $request->input('importance')]);
         return response()->json(["message"=>"Added Training Steps"]);
     });
     Route::get('usercompletedtrainingsteps',function (Request $request) {
