@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Schema;
 
 class CreateTrainingstepsTable extends Migration
 {
+    
     /**
      * Run the migrations.
      *
