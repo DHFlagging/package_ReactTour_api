@@ -1,5 +1,5 @@
 <?php
-namespace jbirch8865\ReactTour;
+namespace dhflagging\ReactTour;
 use Illuminate\Support\ServiceProvider;
 
 class ReactTourServiceProvider extends ServiceProvider

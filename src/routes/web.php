@@ -2,9 +2,9 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use jbirch8865\ReactTour\Models\trainingstep;
-use jbirch8865\AzureAuth\Http\Middleware\AzureAuth;
-use jbirch8865\ReactTour\Models\userfinishedtraining;
+use dhflagging\ReactTour\Models\trainingstep;
+use dhflagging\AzureAuth\Http\Middleware\AzureAuth;
+use dhflagging\ReactTour\Models\userfinishedtraining;
 
 Route::prefix('api/reacttour')->group(function () {
     Route::get('trainingsteps',function (Request $request) {

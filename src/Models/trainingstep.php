@@ -1,6 +1,6 @@
 <?php
 
-namespace jbirch8865\ReactTour\Models;
+namespace dhflagging\ReactTour\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

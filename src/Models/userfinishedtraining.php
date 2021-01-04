@@ -1,6 +1,6 @@
 <?php
 
-namespace jbirch8865\ReactTour\Models;
+namespace dhflagging\ReactTour\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -12,6 +12,6 @@ class userfinishedtraining extends Model
 
     public function trainingstep()
     {
-        return $this->hasOne('jbirch8865\ReactTour\Models\trainingstep','id','training_id');
+        return $this->hasOne('dhflagging\ReactTour\Models\trainingstep','id','training_id');
     }
 }
