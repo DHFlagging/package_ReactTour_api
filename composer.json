@@ -1,25 +1,27 @@
 {
-    "name": "jbirch8865/react-tour",
+    "name": "dhflagging/react-tour",
     "description": "Works with front end react tours to keep track of user specific training steps",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Joel",
-            "email": "jbirch88655@gmail.com"
+            "email": "joel@d-hflagging.com"
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "dhflagging/azure-auth": "dev-master"
+    },
     "autoload": {
         "psr-4": {
-            "jbirch8865\\ReactTour\\" : "src/"    
+            "dhflagging\\ReactTour\\" : "src/"    
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "jbirch8865\\ReactTour\\ReactTourServiceProvider"
+                "dhflagging\\ReactTour\\ReactTourServiceProvider"
             ]
         }
     }
