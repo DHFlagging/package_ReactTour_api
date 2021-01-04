@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/DHFlagging/package_AzureAuth_api.git",
-                "reference": "32d49f773b54dec7da0b11ec35886a3e2cba497c"
+                "reference": "e391cae73625cbabf8c3050330b432b73b85901e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DHFlagging/package_AzureAuth_api/zipball/32d49f773b54dec7da0b11ec35886a3e2cba497c",
-                "reference": "32d49f773b54dec7da0b11ec35886a3e2cba497c",
+                "url": "https://api.github.com/repos/DHFlagging/package_AzureAuth_api/zipball/e391cae73625cbabf8c3050330b432b73b85901e",
+                "reference": "e391cae73625cbabf8c3050330b432b73b85901e",
                 "shasum": ""
             },
             "require": {
@@ -47,7 +47,7 @@
                 }
             ],
             "description": "Applies middleware to authenticate via azure ad",
-            "time": "2021-01-04T12:35:47+00:00"
+            "time": "2021-01-04T12:57:50+00:00"
         },
         {
             "name": "firebase/php-jwt",
